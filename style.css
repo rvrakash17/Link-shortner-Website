@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  body {
+    font-size: 18px;
+    font-family: "poppins", "san-serif";
+    margin-inline: auto;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+    margin: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  .left {
+    display: flex;
+  }
+  .left ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+  .left ul a {
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    color: black;
+    cursor: pointer;
+  }
+
+  .right {
+    margin-left: 0.5rem;
+  }
+  .right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .right ul a {
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    color: black;
+    cursor: pointer;
+  }
+  .right ul .active {
+    background: #9b10e2;
+    padding: 0.4rem 1.2rem;
+    border-radius: 50px;
+    color: #fff;
+  }
+
+  
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+input {
+    padding: 0.6rem 0.3rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    margin: 0.5rem;
+    flex: 1;
+  }
+.input-container {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#10ece3;
+    padding: 1rem 1.5rem;
+    position: relative;
+    width: min(100%, 40rem);
+    border-radius: 0.3rem;
+    overflow: hidden;
+  }
+
+  .input-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    background: #9b10e2;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  
+  
+  .result .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-inline: auto;
+  }
+  .newUrl-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    background: #9b10e2;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
